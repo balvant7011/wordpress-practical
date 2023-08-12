@@ -1,0 +1,148 @@
+2023-08-12T04:58:31+00:00 CRITICAL Uncaught Error: Call to undefined function senitize_text_field() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-admin-custom-post-type.php:67
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(288): News_Custom_Post_Type->Save_No_of_Viewers_Data(265)
+#1 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\practical\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\practical\wp-includes\post.php(4054): do_action('save_post', 265, Object(WP_Post), true)
+#4 C:\wamp64\www\practical\wp-includes\post.php(4131): wp_insert_post(Array, false)
+#5 C:\wamp64\www\practical\wp-admin\includes\post.php(405): wp_update_post(Array)
+#6 C:\wamp64\www\practical\wp-admin\post.php(218): edit_post()
+#7 {main}
+  thrown in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-admin-custom-post-type.php on line 67
+
+2023-08-12T04:59:25+00:00 CRITICAL Uncaught Error: Call to undefined function senitize_text_field() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-admin-custom-post-type.php:67
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(288): News_Custom_Post_Type->Save_No_of_Viewers_Data(265)
+#1 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\practical\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\practical\wp-includes\post.php(4054): do_action('save_post', 265, Object(WP_Post), true)
+#4 C:\wamp64\www\practical\wp-includes\post.php(4131): wp_insert_post(Array, false)
+#5 C:\wamp64\www\practical\wp-admin\includes\post.php(405): wp_update_post(Array)
+#6 C:\wamp64\www\practical\wp-admin\post.php(218): edit_post()
+#7 {main}
+  thrown in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-admin-custom-post-type.php on line 67
+
+2023-08-12T05:00:54+00:00 CRITICAL Uncaught Error: Call to undefined function senitize_text_field() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-admin-custom-post-type.php:69
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(288): News_Custom_Post_Type->Save_No_of_Viewers_Data(265)
+#1 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\wamp64\www\practical\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\wamp64\www\practical\wp-includes\post.php(4054): do_action('save_post', 265, Object(WP_Post), true)
+#4 C:\wamp64\www\practical\wp-includes\post.php(4131): wp_insert_post(Array, false)
+#5 C:\wamp64\www\practical\wp-admin\includes\post.php(405): wp_update_post(Array)
+#6 C:\wamp64\www\practical\wp-admin\post.php(218): edit_post()
+#7 {main}
+  thrown in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-admin-custom-post-type.php on line 69
+
+2023-08-12T06:30:40+00:00 CRITICAL Uncaught Error: Call to undefined method Visit_News_Counter::Get_News_Viewers() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php:17
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\template-loader.php(78): include()
+#1 C:\wamp64\www\practical\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\practical\index.php(17): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php on line 17
+
+2023-08-12T06:31:12+00:00 CRITICAL Uncaught Error: Call to undefined method Visit_News_Counter::Get_News_Viewers() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php:17
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\template-loader.php(78): include()
+#1 C:\wamp64\www\practical\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\practical\index.php(17): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php on line 17
+
+2023-08-12T06:51:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function News_Feature_Logo_in_Cart::Display_New_Logo_in_Cart(), 1 passed in C:\wamp64\www\practical\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php:7
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(288): News_Feature_Logo_in_Cart->Display_New_Logo_in_Cart('Woo Logo')
+#1 C:\wamp64\www\practical\wp-includes\plugin.php(208): WP_Hook->apply_filters('Woo Logo', Array)
+#2 C:\wamp64\www\practical\wp-content\plugins\woocommerce\templates\cart\mini-cart.php(35): apply_filters('woocommerce_car...', 'Woo Logo', Array, 'e2c0be24560d78c...')
+#3 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\wamp64\\www\\p...')
+#4 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2114): wc_get_template('cart/mini-cart....', Array)
+#5 C: in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php on line 7
+
+2023-08-12T06:52:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function News_Feature_Logo_in_Cart::Display_New_Logo_in_Cart(), 1 passed in C:\wamp64\www\practical\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php:7
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(288): News_Feature_Logo_in_Cart->Display_New_Logo_in_Cart('<a href="http:/...')
+#1 C:\wamp64\www\practical\wp-includes\plugin.php(208): WP_Hook->apply_filters('<a href="http:/...', Array)
+#2 C:\wamp64\www\practical\wp-content\plugins\woocommerce\templates\cart\cart.php(82): apply_filters('woocommerce_car...', '<a href="http:/...', Array, 'e2c0be24560d78c...')
+#3 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\wamp64\\www\\p...')
+#4 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(93): wc_get_templat in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php on line 7
+
+2023-08-12T06:53:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function News_Feature_Logo_in_Cart::Display_New_Logo_in_Cart(), 1 passed in C:\wamp64\www\practical\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php:7
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(288): News_Feature_Logo_in_Cart->Display_New_Logo_in_Cart('<a href="http:/...')
+#1 C:\wamp64\www\practical\wp-includes\plugin.php(208): WP_Hook->apply_filters('<a href="http:/...', Array)
+#2 C:\wamp64\www\practical\wp-content\plugins\woocommerce\templates\cart\cart.php(82): apply_filters('woocommerce_car...', '<a href="http:/...', Array, 'e2c0be24560d78c...')
+#3 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\wamp64\\www\\p...')
+#4 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(93): wc_get_templat in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php on line 7
+
+2023-08-12T06:55:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function News_Feature_Logo_in_Cart::Display_New_Logo_in_Cart_Page(), 1 passed in C:\wamp64\www\practical\wp-includes\class-wp-hook.php on line 288 and exactly 3 expected in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php:7
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(288): News_Feature_Logo_in_Cart->Display_New_Logo_in_Cart_Page('<a href="http:/...')
+#1 C:\wamp64\www\practical\wp-includes\plugin.php(208): WP_Hook->apply_filters('<a href="http:/...', Array)
+#2 C:\wamp64\www\practical\wp-content\plugins\woocommerce\templates\cart\cart.php(82): apply_filters('woocommerce_car...', '<a href="http:/...', Array, 'e2c0be24560d78c...')
+#3 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\wamp64\\www\\p...')
+#4 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(93): wc_g in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php on line 7
+
+2023-08-12T06:55:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php:10
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(286): News_Feature_Logo_in_Cart->Display_New_Logo_in_Cart_Page('<a href="http:/...', Array, 'e2c0be24560d78c...')
+#1 C:\wamp64\www\practical\wp-includes\plugin.php(208): WP_Hook->apply_filters('<a href="http:/...', Array)
+#2 C:\wamp64\www\practical\wp-content\plugins\woocommerce\templates\cart\cart.php(82): apply_filters('woocommerce_car...', '<a href="http:/...', Array, 'e2c0be24560d78c...')
+#3 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\wamp64\\www\\p...')
+#4 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(93): wc_get_template('cart/cart.php')
+#5 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72 in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php on line 10
+
+2023-08-12T06:57:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php:10
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(286): News_Feature_Logo_in_Cart->Display_New_Logo_in_Cart_Page('<a href="http:/...', Array, 'e2c0be24560d78c...')
+#1 C:\wamp64\www\practical\wp-includes\plugin.php(208): WP_Hook->apply_filters('<a href="http:/...', Array)
+#2 C:\wamp64\www\practical\wp-content\plugins\woocommerce\templates\cart\cart.php(82): apply_filters('woocommerce_car...', '<a href="http:/...', Array, 'e2c0be24560d78c...')
+#3 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\wamp64\\www\\p...')
+#4 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(93): wc_get_template('cart/cart.php')
+#5 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72 in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php on line 10
+
+2023-08-12T06:58:02+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_thumbnail_url() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php:10
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\class-wp-hook.php(286): News_Feature_Logo_in_Cart->Display_New_Logo_in_Cart_Page('<a href="http:/...', Array, 'e2c0be24560d78c...')
+#1 C:\wamp64\www\practical\wp-includes\plugin.php(208): WP_Hook->apply_filters('<a href="http:/...', Array)
+#2 C:\wamp64\www\practical\wp-content\plugins\woocommerce\templates\cart\cart.php(82): apply_filters('woocommerce_car...', '<a href="http:/...', Array, 'e2c0be24560d78c...')
+#3 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\wamp64\\www\\p...')
+#4 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-cart.php(93): wc_get_template('cart/cart.php')
+#5 C:\wamp64\www\practical\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72 in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\classes\class-frontend-product-in-cart.php on line 10
+
+2023-08-12T08:04:18+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php on line 67
+
+2023-08-12T08:37:18+00:00 CRITICAL syntax error, unexpected '}' in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php on line 118
+
+2023-08-12T08:37:55+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on array in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php:98
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\template-loader.php(78): include()
+#1 C:\wamp64\www\practical\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\practical\index.php(17): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php on line 98
+
+2023-08-12T08:38:27+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on array in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php:98
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\template-loader.php(78): include()
+#1 C:\wamp64\www\practical\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\practical\index.php(17): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php on line 98
+
+2023-08-12T09:24:17+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::get_ss() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php:72
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\template-loader.php(78): include()
+#1 C:\wamp64\www\practical\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\practical\index.php(17): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php on line 72
+
+2023-08-12T09:24:33+00:00 CRITICAL Uncaught Error: Call to undefined method wpdb::get_ss() in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php:72
+Stack trace:
+#0 C:\wamp64\www\practical\wp-includes\template-loader.php(78): include()
+#1 C:\wamp64\www\practical\wp-blog-header.php(19): require_once('C:\\wamp64\\www\\p...')
+#2 C:\wamp64\www\practical\index.php(17): require('C:\\wamp64\\www\\p...')
+#3 {main}
+  thrown in C:\wamp64\www\practical\wp-content\plugins\wordpress-connect-to-woocommerce\template-part\single-news.php on line 72
+
