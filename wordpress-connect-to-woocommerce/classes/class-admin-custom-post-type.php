@@ -11,6 +11,8 @@ class News_Custom_Post_Type {
         // Add sidebar template
         add_filter( 'single_template', array( $this, 'Load_Signle_News_Template' ) );
 
+        add_shortcode('swap_two_numbers', array( $this, 'Swap_Two_Numbers_Shortcode' ));
+
         // JS for custom post type News
         add_action( 'wp_enqueue_scripts', array( $this, 'Add_News_Custom_Post_Type_JS' ) );
     }
@@ -95,31 +97,22 @@ class News_Custom_Post_Type {
 
         return $template;
     }
+
+    // Shortcode for swap two numbers
+    public function Swap_Two_Numbers_Shortcode($atts){
+        extract(shortcode_atts(array(
+            'first' => 0,
+            'second' => 0,
+        ), $atts));
+    
+        // Swap two numbers without using a third variable.
+        $first = $first + $second;
+        $second = $first - $second;
+        $first = $first - $second;
+    
+        // Return the result
+        return "After Swapping: First Number: $first Second Number: $second";
+    }
+    
 }
-
-// class Visit_News_Counter {
-//     public function __construct() {
-//         add_action( 'wp', array( $this, 'Visit_News_Counter_Function' ) );
-//     }
-
-//     public function Visit_News_Counter_Function() {
-
-//         echo '<pre>';
-//             print_r($news_id);
-//             echo '<pre>';
-//             exit;
-//         if( is_single() && get_post_type() == 'news')  {
-//             $news_id = get_the_ID();
-            
-//             $news_viewers = get_post_meta( $news_id, 'news_viewers', true );
-//             $viewers = ($news_viewers == '') ? 1 : intval($news_viewers) + 1;
-//             update_post_meta( $news_id, 'news_viewers', $viewers );
-//         }
-//     }
-
-//     public function Get_News_Viewers($news_id) {
-//         $viewers = get_post_meta( $news_id, 'news_viewers', true );
-//         return ($viewers == '') ? 0 : intval($viewers);
-//     }
-// }
 ?>
